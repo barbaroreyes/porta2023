@@ -37,9 +37,10 @@
  cursor: pointer;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+@media (min-width: 768px) {
+  .container-projects{
+   flex-direction: row;
+   
   }
 }
 
