@@ -39,6 +39,7 @@
 
 @media (min-width: 768px) {
   .container-projects{
+    padding: 70px;
    flex-direction: row;
    flex-wrap: wrap;
    justify-content: center;
@@ -46,6 +47,7 @@
    
   }.project-container{
     width: 20%;
+    margin: 50px;
   }.project-image-container{
     width: 100%;
   }
