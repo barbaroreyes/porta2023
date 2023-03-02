@@ -1,0 +1,15 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-porta2023-dev-134528-authRole",
+      "UnauthRoleArn": "arn:aws:iam::217175807922:role/amplify-porta2023-dev-134528-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::217175807922:role/amplify-porta2023-dev-134528-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-porta2023-dev-134528-deployment",
+      "UnauthRoleName": "amplify-porta2023-dev-134528-unauthRole",
+      "StackName": "amplify-porta2023-dev-134528",
+      "StackId": "arn:aws:cloudformation:us-east-1:217175807922:stack/amplify-porta2023-dev-134528/cb3d77e0-b932-11ed-9b3e-0e18b180c0a9",
+      "AmplifyAppId": "d37akiqs9mm4wo"
+    }
+  }
+}
