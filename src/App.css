@@ -41,6 +41,10 @@
   .container-projects{
    flex-direction: row;
    
+  }.project-container{
+    width: 100%;
+  }.project-image-container{
+    width: 100%;
   }
 }
 
