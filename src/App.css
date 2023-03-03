@@ -92,9 +92,10 @@ li a{
   }.picture-container{
     width: 7%;
     margin-bottom: 1000px;
+
   }.header-container{
     display: flex;
-    
+    animation: App-logo-spin infinite ease-in ;
   }
 }
 
