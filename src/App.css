@@ -3,6 +3,7 @@ a{
   text-decoration: none;
   margin-bottom: 10px;
 }
+
 li{
   list-style: none;
 }
@@ -10,8 +11,7 @@ li a{
   margin: 10px;
 }
 .header-container{
-  
- margin-top: 15px;
+  margin-top: 15px;
 }
 .home-container{
   display: flex;
@@ -19,9 +19,10 @@ li a{
   justify-content: space-around;
   align-items: center;
   height: 70vh;
-  
-
+  animation: all 10s ease-in-out;
+ 
 }
+
 
 .menu-long{
   display: none;
@@ -29,10 +30,12 @@ li a{
 .picture-container{
   display: flex;
   width: 30%;
+  animation: all 3s ease;
 }
 .picture-container img{
  width: 100%;
  border-radius:20% ;
+ animation: animationUp1 2s ease-out;
 }
 .container-projects{
   display: flex;
@@ -92,11 +95,12 @@ li a{
   }.picture-container{
     width: 7%;
  
-    animation: App-logo-spin infinite ease-in ;
-
   }.header-container{
     display: flex;
+    border: 1px solid;
    
+  }.picture-container{
+    animation: animationUp  2s ease-in;
   }
 }
 
@@ -104,11 +108,31 @@ li a{
 
 
 
-@keyframes App-logo-spin {
+@keyframes animationUp {
   0% {
-    transform: translate(0px);
+    transform: translateY(0px);
+
   }
   100% {
-    transform: translate(1000px);
+    transform: translateY(-550px);
+    opacity: 0.1;
   }
+ 
+}
+@keyframes animationUp1 {
+  0% {
+    transform: 
+    translateY(0px);
+    opacity: 1;
+
+  }
+  100% {
+    transform: 
+    translateY(-550px);
+    transform: rotate(10deg);
+;
+    opacity: 0;
+    
+  }
+ 
 }
