@@ -8,7 +8,7 @@ import Footer from './compo/Footer';
 function App() {
   return (
     <>
-      <Header/>
+    <Header/>
     <Routes>
     <Route path="/" element ={<Home/>}/>
       <Route path="/projects" element ={<Projects/>}/>

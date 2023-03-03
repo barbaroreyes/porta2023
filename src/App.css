@@ -9,6 +9,9 @@ li{
 li a{
   margin: 10px;
 }
+.header-container{
+ margin-top: 15px;
+}
 .home-container{
   display: flex;
   flex-direction: column;
@@ -17,6 +20,10 @@ li a{
   height: 70vh;
   border: 1px solid;
 
+}
+
+.menu-long{
+  display: none;
 }
 .picture-container{
   display: flex;
