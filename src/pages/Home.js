@@ -3,8 +3,14 @@ import React from 'react';
 const Home = () => {
   return (
     <div className='home-container'>
-      <div>picture</div>
-      <div>main</div>
+      <div className='picture-container'>
+        <img src='https://avatars.githubusercontent.com/u/48423441?v=4' alt='#'/>
+      </div>
+      <div className='tecni'>
+        Languajes
+        <hr/>
+        React nodejs python java 
+      </div>
     </div>
   );
 }

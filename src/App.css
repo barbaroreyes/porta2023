@@ -1,8 +1,15 @@
-
+@import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap');
 a{
   text-decoration: none;
-  
-}.home-container{
+  margin-bottom: 10px;
+}
+li{
+  list-style: none;
+}
+li a{
+  margin: 10px;
+}
+.home-container{
   display: flex;
   flex-direction: column;
   justify-content: space-around;
@@ -10,6 +17,14 @@ a{
   height: 70vh;
   border: 1px solid;
 
+}
+.picture-container{
+  display: flex;
+  width: 30%;
+}
+.picture-container img{
+ width: 100%;
+ border-radius:20% ;
 }
 .container-projects{
   display: flex;
@@ -34,8 +49,6 @@ a{
   width: 100%;
   border-radius: 10%;
   
-
-
 }
 .project-image-container-links{
   padding: 10px;
