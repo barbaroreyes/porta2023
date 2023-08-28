@@ -1,14 +1,30 @@
-import React from 'react';
+import React ,{useState}from 'react';
 import {Link} from 'react-router-dom';
 // sds
 const Header = () => {
   //este 
+  const [menuContainer , setMenuContainer] = useState('menu');
+  const [menuClass , setMenuClass] = useState('hamburger_icon');
+ const  [isMenuClicked,setMenuClicked] = useState(false);
+  const clicedcompo = () => {
+  if(!isMenuClicked){
+    
+    setMenuContainer('menu1')
+    setMenuClass('hamburger_icon1')
+  }
+   else{
+    setMenuContainer('menu')
+    setMenuClass('hamburger_icon')
+   }
+   setMenuClicked(!isMenuClicked)
+  }
+ 
   return (
-    <div className="header-container">
+    <div className="header-container" >
       
-    <div className="menu">
+    <div className={menuContainer } onClick={clicedcompo} >
       
-        <div className= 'hamburger_icon'>
+        <div className= {menuClass} >
           <div></div>
           <div></div>
           <div></div>
