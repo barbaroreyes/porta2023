@@ -1,14 +1,13 @@
 import React from 'react';
+import {Link} from 'react-router-dom';
 
 const Home = () => {
   return (
     <div className='home-container'>
      
    <div className='box_container'>
-      <div className='box grow shadow-5'>Front_End</div> 
-    <div className='box grow '>Backend</div> 
-    <div className='box grow'>Full Stack</div> 
-    <div className='box grow'>UX/UI Design</div> 
+    <Link to ='/' className='box grow'>Developer</Link> 
+    <Link to='/projects' className='box grow'>UX/UI Design</Link> 
     </div>
     </div>
   );

@@ -57,4 +57,5 @@ export  const data = [
       "Gib" : "https://github.com/barbaroreyes/app-store-beers",
       "picture":"https://github.com/barbaroreyes/app-store-beers/blob/main/src/components/images/project.jpeg?raw=true"
    
-     }]
+     }
+]

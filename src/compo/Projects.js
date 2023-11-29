@@ -12,11 +12,10 @@ const Projects = () => {
         <div className='project-container'>
            <h3>{item.name}</h3> 
           <div className='project-image-container'>
-          <img src={item.picture} alt ={item.name}/>
+          <img src={item.image} alt ={item.name}/>
           </div>
          <div className='project-image-container-links'>
-          <a href={item.live}>App</a>
-          <a href={item.Gib}>Git</a>
+         
          </div>
         </div>
        )

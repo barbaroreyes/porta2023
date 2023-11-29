@@ -1,5 +1,5 @@
 import {createContext , useState} from 'react';
-import {data} from '../data/data'
+import data from '../data/data1'
 const ProjectContext = createContext();
 
 const ProjectProvider = ({children}) => {
